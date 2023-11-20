@@ -26,8 +26,3 @@ Reports:
       - test-report.xml
     base-directory: /usr/tests/
     file-format: JUNITXML
-
-Artifacts:
-  type: zip
-  files:
-    - '**/*'
