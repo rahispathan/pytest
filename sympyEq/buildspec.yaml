@@ -19,4 +19,14 @@ phases:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/
+
+  artifacts:
+    files: imagedefinitions.json
+
+# Add the ArtifactsOverride section for CodePipeline
+# This is an example; adjust it based on your project structure
+ artifacts:
+   files: imagedefinitions.json
+   name: BuildOutput
+   discard-paths: yes
     
