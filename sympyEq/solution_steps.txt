@@ -1,0 +1,6 @@
+Step 1: Define the equation
+Eq(x**2 - 3*x - 10, 0)
+
+Step 2: Solve the equation
+Solution 1: x = -2
+Solution 2: x = 5
